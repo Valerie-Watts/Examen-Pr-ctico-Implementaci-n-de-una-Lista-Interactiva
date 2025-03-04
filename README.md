@@ -27,3 +27,15 @@ Buscar elemento: Permite buscar un elemento dentro de la lista.
 Mostrar lista: Despliega todos los elementos almacenados.
 
 Salir: Termina la ejecución del programa.
+
+Ejemplo de Uso
+
+Seleccione una opción:
+1. Agregar elemento
+2. Eliminar elemento
+3. Buscar elemento
+4. Mostrar lista
+5. Salir
+Opción: 1
+Ingrese el valor a agregar: 25
+Elemento agregado correctamente.

@@ -37,5 +37,7 @@ Seleccione una opción:
 4. Mostrar lista
 5. Salir
 Opción: 1
+
 Ingrese el valor a agregar: 25
+
 Elemento agregado correctamente.

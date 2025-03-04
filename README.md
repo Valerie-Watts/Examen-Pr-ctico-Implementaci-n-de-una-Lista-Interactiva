@@ -1,44 +1,46 @@
-# Examen-Practico-Implementacion-de-una-Lista-Interactiva
+# Lista Interactiva en C#
 
-Este repositorio contiene una implementación de una lista interactiva en C# que permite realizar operaciones básicas como agregar, eliminar, buscar y mostrar elementos. La aplicación funciona a través de la consola y presenta un menú interactivo para facilitar la gestión de la lista.
+Este programa de consola en C# implementa una lista interactiva con operaciones básicas como agregar, eliminar y mostrar elementos.
 
-Características
+## Características
+- Permite agregar elementos al inicio o al final de la lista.
+- Elimina elementos del inicio o del final.
+- Muestra los elementos actuales de la lista.
+- Funciona mediante un menú interactivo en la consola.
 
-Permite al usuario agregar elementos a la lista.
+## Uso
+Al ejecutar el programa, se mostrará un menú con las siguientes opciones:
 
-Permite eliminar elementos específicos de la lista.
+```
+1. Agregar elemento al inicio
+2. Agregar elemento al final
+3. Eliminar elemento al inicio
+4. Eliminar el último elemento
+5. Mostrar la lista
+6. Salir
+```
 
-Permite buscar elementos dentro de la lista.
+### Ejemplo de uso
+**Ejemplo de interacción con el usuario:**
+```
+Lista de Alumnos
 
-Muestra todos los elementos almacenados en la lista.
+¿Qué desea realizar en la lista?
+1. Agregar elemento al inicio
+2. Agregar elemento al final
+3. Eliminar elemento al inicio
+4. Eliminar el último elemento
+5. Mostrar la lista
+6. Salir
 
-Implementado en C# con una interfaz de consola sencilla.
-
-Menú del Programa
-
-El programa muestra un menú con las siguientes opciones:
-
-Agregar elemento: Permite al usuario ingresar un valor y añadirlo a la lista.
-
-Eliminar elemento: Permite al usuario eliminar un valor específico de la lista.
-
-Buscar elemento: Permite buscar un elemento dentro de la lista.
-
-Mostrar lista: Despliega todos los elementos almacenados.
-
-Salir: Termina la ejecución del programa.
-
-Ejemplo de Uso
-
-Seleccione una opción:
-1. Agregar elemento
-2. Eliminar elemento
-3. Buscar elemento
-4. Mostrar lista
-5. Salir
-
-Opción: 1
-
-Ingrese el valor a agregar: 25
-
-Elemento agregado correctamente.
+Ingrese una opción: 1
+Ingrese el nombre del alumno: Juan
+Se ha agregado al inicio: Juan
+Lista Alumnos:
+Juan
+Chepe
+Gina
+Alex
+Anton
+George
+```
